@@ -107,9 +107,8 @@ def Get_Run():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
+                    persistences.append(persistence)
+                    print("\t" + persistence.Value)
                 
         except:
             None
@@ -130,11 +129,8 @@ def Get_Run():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-            
-            persistences.append(persistence)
-                    
-            print("\t" + persistence.Value)
-                
+                    persistences.append(persistence)
+                    print("\t" + persistence.Value)
         except:
             None
 
@@ -157,9 +153,8 @@ def Get_RunOnce():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)
                 
         except:
             None
@@ -180,10 +175,8 @@ def Get_RunOnce():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
-                
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)
         except:
             None
 
@@ -206,10 +199,8 @@ def Get_RunEx():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
-                
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)
         except:
             None
         
@@ -229,12 +220,11 @@ def Get_RunEx():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
-                
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)  
         except:
             None
+
 
 def Get_RunOnceEx():
     print("+ Getting RunOnceEx Persistence")
@@ -255,10 +245,8 @@ def Get_RunOnceEx():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
-                
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)
         except:
             None
         
@@ -278,9 +266,8 @@ def Get_RunOnceEx():
                     persistence.Classification = 'MITRE ATT&CK T1547.001'
                     persistence.Reference = "https://attack.mitre.org/techniques/T1547/001/"
                     persistence.Value = value.value()
-                    
-            print("\t" + persistence.Value)
-            persistences.append(persistence)
+                    print("\t" + persistence.Value)
+                    persistences.append(persistence)
                 
         except:
             None
